@@ -1,2 +1,2 @@
 rootProject.name='Android Animation'
-include ':app',':library'
+include ':app', ':yoyo'

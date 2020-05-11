@@ -9,12 +9,12 @@ import android.view.View;
 import com.reza.animation.activity.ShakeActivity;
 import com.reza.animation.activity.YoyoAnimationsActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class SelectActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_select);
 
         findViewById(R.id.shake).setOnClickListener(new View.OnClickListener() {
             @Override
