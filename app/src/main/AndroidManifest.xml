@@ -21,6 +21,7 @@
         <activity android:name=".activity.YoyoAnimationsActivity" android:label="@string/app_name"/>
 
         <activity android:name=".activity.ShakeActivity"/>
+        <activity android:name=".testAnimation.TestActivity"/>
 
     </application>
 
