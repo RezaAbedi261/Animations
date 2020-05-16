@@ -1,14 +1,15 @@
 package com.reza.animation;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.reza.animation.activity.ShakeActivity;
 import com.reza.animation.activity.YoyoAnimationsActivity;
 import com.reza.animation.testAnimation.TestActivity;
+import com.reza.animation.xmlAnimations.SelectXMLActivity;
 
 public class SelectActivity extends AppCompatActivity {
 
@@ -31,10 +32,17 @@ public class SelectActivity extends AppCompatActivity {
             }
         });
 
-     findViewById(R.id.test).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.codeAnimations).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), TestActivity.class));
+            }
+        });
+
+        findViewById(R.id.selectXMLActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), SelectXMLActivity.class));
             }
         });
 

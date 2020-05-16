@@ -19,10 +19,25 @@
         </activity>
 
         <activity android:name=".activity.YoyoAnimationsActivity" android:label="@string/app_name"/>
-
         <activity android:name=".activity.ShakeActivity"/>
         <activity android:name=".testAnimation.TestActivity"/>
+        <activity android:name=".xmlAnimations.SelectXMLActivity" />
 
+
+        <activity android:name=".xmlAnimations.FadeInActivity" />
+        <activity android:name=".xmlAnimations.FadeOutActivity" />
+        <activity android:name=".xmlAnimations.CrossfadeActivity" />
+        <activity android:name=".xmlAnimations.BlinkActivity" />
+        <activity android:name=".xmlAnimations.ZoomInActivity" />
+        <activity android:name=".xmlAnimations.ZoomOutActivity" />
+        <activity android:name=".xmlAnimations.RotateActivity" />
+        <activity android:name=".xmlAnimations.MoveActivity" />
+        <activity android:name=".xmlAnimations.SlideUpActivity" />
+        <activity android:name=".xmlAnimations.SlideDownActivity" />
+        <activity android:name=".xmlAnimations.BounceActivity" />
+        <activity android:name=".xmlAnimations.SequentialActivity" />
+        <activity android:name=".xmlAnimations.Sequential2Activity" />
+        <activity android:name=".xmlAnimations.TogetherActivity" />
     </application>
 
 </manifest>

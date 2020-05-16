@@ -17,9 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
             android:gravity="center"
             android:paddingLeft="45dp"
-            android:layout_marginTop="15dp"
             android:paddingRight="45dp"
             android:text="shake"
             android:textColor="@color/black"
@@ -30,9 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
             android:gravity="center"
             android:paddingLeft="45dp"
-            android:layout_marginTop="15dp"
             android:paddingRight="45dp"
             android:text="YOYO Animations"
             android:textColor="@color/black"
@@ -40,18 +40,31 @@
 
 
         <Button
-            android:id="@+id/test"
+            android:id="@+id/codeAnimations"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
             android:gravity="center"
             android:paddingLeft="45dp"
-            android:layout_marginTop="15dp"
             android:paddingRight="45dp"
-            android:text="test Animations"
+            android:text="code Animations"
             android:textColor="@color/black"
             android:textSize="15sp" />
 
+
+        <Button
+            android:id="@+id/selectXMLActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:text="Select XML Activity"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
 
 
     </LinearLayout>
